@@ -8,6 +8,7 @@ We are analyzing Stormworks-specific binary files and creating pattern files for
 
 - Pattern for .mesh file
 - Pattern for .phys file
+- Pattern for .txtr file
 
 ### WIP
 
@@ -15,5 +16,4 @@ We are analyzing Stormworks-specific binary files and creating pattern files for
 
 ### Planned
 
-- Pattern for .txtr file
 - Pattenr for .bin (Component Mod) file

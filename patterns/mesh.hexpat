@@ -1,6 +1,7 @@
 #pragma author Teinishi
 #pragma description Stormworks mesh
 #pragma magic [ 6D 65 73 68 ] @ 0x00
+#pragma endian little
 
 import type.magic;
 import type.color;

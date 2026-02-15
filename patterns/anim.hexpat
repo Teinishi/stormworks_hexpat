@@ -1,6 +1,7 @@
 #pragma author Teinishi
 #pragma description Stormworks anim
 #pragma magic [ 61 6E 69 6D ] @ 0x00
+#pragma endian little
 
 import type.color;
 

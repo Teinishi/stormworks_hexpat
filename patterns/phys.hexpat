@@ -1,6 +1,7 @@
 #pragma author Teinishi
 #pragma desccription Stormworks phys
 #pragma magic [ 70 68 79 73 ] @ 0x00
+#pragma endian little
 
 import type.magic;
 
