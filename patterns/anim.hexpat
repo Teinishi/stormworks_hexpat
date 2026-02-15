@@ -1,4 +1,9 @@
-#include <type/color.pat>
+#pragma author Teinishi
+#pragma description Stormworks anim
+#pragma magic [ 61 6E 69 6D ] @ 0x00
+
+import type.color;
+
 using RGBA8 = type::RGBA8;
 
 struct Vector3f {
