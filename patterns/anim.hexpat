@@ -32,12 +32,6 @@ struct Header {
     u32;
 };
 
-enum ShaderType: u32 {
-    Default = 0,
-    Glass = 1,
-    Additive = 2
-};
-
 struct AnimMeshVertex {
     Vector3f position;
     RGBA8 color;
@@ -48,6 +42,12 @@ struct AnimMeshVertex {
     float bone_index_1;
     float bone_weight_0;
     float bone_weight_1;
+};
+
+enum ShaderType: u32 {
+    Default = 0,
+    Glass = 1,
+    Additive = 2
 };
 
 struct AnimMesh {

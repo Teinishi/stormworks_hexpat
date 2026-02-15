@@ -22,11 +22,17 @@ struct Vertex {
     Vector3f normal;
 };
 
+enum ShaderType: u16 {
+    Default = 0,
+    Glass = 1,
+    Additive = 2
+};
+
 struct Submesh {
     u32 index_buffer_start;
     u32 index_buffer_length;
     type::Magic<"\x00\x00">;
-    u16 shader_type;
+    ShaderType shader_type;
     Vector3f bounds_min;
     Vector3f bounds_max;
     type::Magic<"\x00\x00">;
